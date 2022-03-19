@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* BODY COLOR */
+body {
+    background-color: #EEF1F2;
+}
+
 /* HEADER SECTION */
 header {
     background-image: url("header.jpg");
@@ -29,7 +34,7 @@ ul {
 }
 
 .nav-item {
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 .nav-link {
@@ -54,20 +59,54 @@ ul {
 
 .aboutUsImg {
     height: 300px;
-    max-width: 100%;
+    width: 100%;
     margin-top: 10%;
 }
 
 /* PLAY TIME SECOND SECTION */
 .playTime h2 {
-    background-color: rgb(228, 203, 225);
     height: 50px;
     text-align: center;
     padding-top: 10px;
     color: white;
 }
 
+.playTime p {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.playTime {
+    background-color: #B3C6C5;
+    margin-top: 15px;
+}
+
+.playTime-images-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
 .picspPlayTime {
-    height: 250px;
-    width: 300px;
+  
+    height: 200px;
+    width: 100%;
+}
+
+/* SERVICES SECTION THIRD SECTION*/
+
+#Services h2 {
+    text-align: center;
+}
+.servicesSection {
+    display: flex;
+}
+.fa-dog {
+   
+}
+
+.thirdContainer {
+    margin-top: 15px;
+    background-color: #B3C6C5;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
 }
