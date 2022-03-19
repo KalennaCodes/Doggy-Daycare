@@ -12,22 +12,23 @@ body {
 header {
     background-image: url("header.jpg");
     min-height: 60vh;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
 
 .logo {
-    font-size: 20px;
+    font-size: 30px;
     display: inline;
     color: white;
     padding-left: 20px;
 }
 
-nav {
+header > nav {
     display: inline;
 }
-ul {
+nav > ul {
     display: flex;
     float: right;  
     list-style: none;
@@ -42,24 +43,30 @@ ul {
     color: white;
 }
 
+main {
+    color: white;
+    position: absolute;
+    bottom: 55%;
+    right: 16px;
+}
+
 /* ABOUT US SECTION*/
 .firstContainer {
     display: flex;
 }
 
 #About {
-    min-width: 50%;
+    
     
 }
 
 .about-us-img-sec {
-    min-width: 50%;
-    padding-left: 15%;
+    
+   
 }
 
 .aboutUsImg {
     height: 300px;
-    width: 100%;
     margin-top: 10%;
 }
 
@@ -98,6 +105,7 @@ ul {
 }
 .servicesSection {
     display: flex;
+    
 }
 .fa-dog {
    
@@ -109,4 +117,118 @@ ul {
     padding-top: 20px;
     color: white;
     text-align: center;
+    
+}
+
+/* FOURTH SECTION CONTACT US */
+
+input, textarea { 
+    outline: none;
+    }
+.fourthContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #EEF1F2;
+    }
+
+form {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-left-decoration,
+    .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #99B2A9;
+    }
+    .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+    }
+    .form-right-decoration {
+    top: 60px;
+    right: -30px;
+    }
+    .form-left-decoration:before,
+    .form-left-decoration:after,
+    .form-right-decoration:before,
+    .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-left-decoration:before {
+    top: -20px;
+    }
+    .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+    }
+    .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+    }
+    .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+    }
+    .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    }
+    .form-inner {
+    padding: 40px;
+    }
+    .form-inner input,
+    .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }
+    .form-inner textarea {
+    resize: none;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #323f1f;
+    background: #99B2A9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #AAC0AE;
+    } 
+    @media (min-width: 568px) {
+    form {
+    width: 60%;
+    }
+    }
+
+    /* FOOTER SECTION */
+footer {
+    background-color: #96ADB0;
 }
