@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
 /* BODY COLOR */
 body {
     background-color: #EEF1F2;
@@ -23,6 +29,7 @@ header {
     display: inline;
     color: white;
     padding-left: 20px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 header > nav {
@@ -36,27 +43,32 @@ nav > ul {
 
 .nav-item {
     padding-right: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-link {
     text-decoration: none;
     color: white;
+    
 }
 
 main {
     color: white;
     position: absolute;
-    bottom: 55%;
-    right: 16px;
+    bottom: 47%;
+    right: 30px;
 }
 
 /* ABOUT US SECTION*/
 .firstContainer {
     display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+    
 }
 
 #About {
-    
+   padding-right: 50px; 
     
 }
 
@@ -70,12 +82,29 @@ main {
     margin-top: 10%;
 }
 
+.btn {
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid #88D1D7;
+    background: #37A49D; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #AAC0AE;
+    } 
+
 /* PLAY TIME SECOND SECTION */
 .playTime h2 {
     height: 50px;
     text-align: center;
     padding-top: 10px;
     color: white;
+    text-decoration: underline;
 }
 
 .playTime p {
@@ -84,16 +113,21 @@ main {
     padding-bottom: 10px;
 }
 .playTime {
-    background-color: #B3C6C5;
+    background-color: #6EB5CF;
     margin-top: 15px;
 }
 
 .playTime-images-grid {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
+  
 }
 .picspPlayTime {
-  
+    margin: 5px;
+    padding-right: 10px;
     height: 200px;
     width: 100%;
 }
@@ -102,6 +136,7 @@ main {
 
 #Services h2 {
     text-align: center;
+    text-decoration: underline;
 }
 .servicesSection {
     display: flex;
@@ -113,7 +148,7 @@ main {
 
 .thirdContainer {
     margin-top: 15px;
-    background-color: #B3C6C5;
+    background-color: #6EB5CF;
     padding-top: 20px;
     color: white;
     text-align: center;
@@ -146,7 +181,7 @@ form {
     width: 50px;
     height: 20px;
     border-radius: 20px;
-    background: #99B2A9;
+    background: #37A49D;
     }
     .form-left-decoration {
     bottom: 60px;
@@ -213,14 +248,14 @@ form {
     margin-top: 20px;
     border-radius: 20px;
     border: none;
-    border-bottom: 4px solid #323f1f;
-    background: #99B2A9; 
+    border-bottom: 2px solid #88D1D7;
+    background: #37A49D; 
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     }
     button:hover {
-    background: #AAC0AE;
+    background: #40BFBB;
     } 
     @media (min-width: 568px) {
     form {
@@ -230,5 +265,29 @@ form {
 
     /* FOOTER SECTION */
 footer {
-    background-color: #96ADB0;
+    background-color: #6EB5CF;  
+    text-align: center;
+    max-width: 100%;
+  }
+
+.footer-logo {
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+  }
+address {
+    color: white;
+    line-height: 2em;
+    font-size: 1.1em;
 }
+
+.socials {
+    padding-top: 30px;
+    padding-bottom: 5%;
+    }
+.socials img {
+      padding-right: 5%;
+      cursor: pointer;
+  }
+
