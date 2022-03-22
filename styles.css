@@ -55,7 +55,7 @@ nav > ul {
 main {
     color: white;
     position: absolute;
-    bottom: 47%;
+    bottom: 190px;
     right: 30px;
 }
 
@@ -99,6 +99,9 @@ main {
     } 
 
 /* PLAY TIME SECOND SECTION */
+.secondContainer {
+    
+}
 .playTime h2 {
     height: 50px;
     text-align: center;
@@ -143,7 +146,7 @@ main {
     display: flex;
     
 }
-.fa-dog {
+.doggy {
     padding-top: 15px;
 }
 .Daycare {
