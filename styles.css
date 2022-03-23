@@ -54,7 +54,7 @@ nav > ul {
 main {
     color: white;
     position: absolute;
-    bottom: 190px;
+    bottom: 250px;
     right: 30px;
 }
 
@@ -305,4 +305,6 @@ address {
       padding-right: 5%;
       cursor: pointer;
   }
+
+/* MOBILE VIEW */
 
