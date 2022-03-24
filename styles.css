@@ -26,37 +26,61 @@ header {
 
 .logo {
     font-size: 30px;
-    display: inline;
+    
     color: white;
-    padding-left: 20px;
+    padding-left: 15px;
     font-family: 'Varela Round', sans-serif;
 }
 
-header > nav {
-    display: inline;
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    padding-right: 10px;
 }
-nav > ul {
+
+nav {
     display: flex;
-    float: right;  
-    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
 }
 
 .nav-item {
     font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
 }
 
 .nav-link {
+    display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-}
+    padding: 10px 20px;
+} 
 
 main {
+    color: white;
+    float: right;
+    padding-right: 10px;
+}
+/* main {
     color: white;
     position: absolute;
     bottom: 250px;
     right: 30px;
-}
+} */
 
 /* ABOUT US SECTION*/
 .firstContainer {
@@ -93,8 +117,8 @@ main {
     font-weight: 400;
     color: #fff;
     }
-    button:hover {
-    background: #AAC0AE;
+    .btn:hover {
+    background: #40BFBB;
     } 
 
 /* PLAY TIME SECOND SECTION */
@@ -117,6 +141,7 @@ main {
 .playTime {
     background-color: #6EB5CF;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .playTime-images-grid {
@@ -124,14 +149,13 @@ main {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-  
+    margin: 0 -5px;
 }
 .picspPlayTime {
-    padding-right: 10px;
-    padding-bottom: 10px;
-   
+    padding-top: 5px;
     height: 300px;
     width: 400px;
+    margin: 0 5px;
 }
 
 /* SERVICES SECTION THIRD SECTION*/
@@ -257,7 +281,7 @@ form {
     .form-inner textarea {
     resize: none;
     }
-    button {
+    .submit-btn {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
@@ -269,7 +293,7 @@ form {
     font-weight: 400;
     color: #fff;
     }
-    button:hover {
+    .submit-btn:hover {
     background: #40BFBB;
     } 
     @media (min-width: 568px) {
@@ -308,3 +332,26 @@ address {
 
 /* MOBILE VIEW */
 
+@media screen and (max-width: 550px) {
+
+.picspPlayTime{
+
+}
+}
+
+@media screen and (max-width: 850px) {
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+   
+
+}
