@@ -26,7 +26,6 @@ header {
 
 .logo {
     font-size: 30px;
-    
     color: white;
     padding-left: 15px;
     font-family: 'Varela Round', sans-serif;
@@ -75,12 +74,6 @@ main {
     float: right;
     padding-right: 10px;
 }
-/* main {
-    color: white;
-    position: absolute;
-    bottom: 250px;
-    right: 30px;
-} */
 
 /* ABOUT US SECTION*/
 .firstContainer {
@@ -333,10 +326,36 @@ address {
 /* MOBILE VIEW */
 
 @media screen and (max-width: 550px) {
-
-.picspPlayTime{
-
-}
+    .firstContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #About {
+        justify-self: center;
+    }
+    .about-us-img-sec {
+        padding-right: 34px;
+    }
+    .logo {
+        font-size: 25px;
+        color: white;
+        padding-left: 5px;
+        font-family: 'Varela Round', sans-serif;
+    }
+    main {
+        color: white;
+        float: right;
+        padding-right: 10px;
+        padding-top: 50px;
+    }
+    main h1 {
+        font-size: 23px;
+     
+    }
+    main p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 850px) {
