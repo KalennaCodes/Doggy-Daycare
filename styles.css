@@ -90,9 +90,6 @@ main {
   padding-right: 50px;
 }
 
-.about-us-img-sec {
-}
-
 .aboutUsImg {
   height: 300px;
   margin-top: 10%;
@@ -122,7 +119,6 @@ main {
   text-align: center;
   padding-top: 10px;
   color: white;
-  text-decoration: underline;
 }
 
 .playTime p {
@@ -155,7 +151,6 @@ main {
 
 #Services h2 {
   text-align: center;
-  text-decoration: underline;
   margin-bottom: 20px;
 }
 .servicesSection {
@@ -186,6 +181,34 @@ main {
   padding-bottom: 15px;
 }
 
+/* Client testimonials */
+
+.clients {
+    display: flex;
+}
+.client-reviews h3 {
+    margin-top: 15px;
+    color: hsl(210, 4%, 67%);
+  }
+  .client-reviews {
+    text-align: center;
+  }
+  
+  .client-photo {
+    border-radius: 50%;
+    margin-top: 5%;
+    height: 100px;
+    width: 100px;
+  }
+  .review {
+    color: hsl(232, 10%, 55%);
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 0 12%;
+    font-family: "Barlow", sans-serif;
+  }
+
+
 /* FOURTH SECTION CONTACT US */
 
 input,
@@ -197,7 +220,7 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background: #eef1f2;
+  background: #587f8bf8;
 }
 
 form {
@@ -319,8 +342,9 @@ address {
   padding-bottom: 5%;
 }
 .socials img {
-  padding-right: 5%;
+  padding-right: 3.33%;
   cursor: pointer;
+  padding-left: 2%;
 }
 
 /* MOBILE VIEW */
@@ -367,6 +391,10 @@ address {
     border: 4px solid #eef1f2;
     margin-left: 13px;
   }
+  .clients {
+    display: flex;
+    flex-direction: column;
+}
 }
 
 @media screen and (max-width: 850px) {
@@ -374,10 +402,12 @@ address {
     display: none;
     flex-direction: column;
     width: 100%;
+    background-color: #37a49dd8;
   }
 
   .nav-ul.show {
     display: flex;
+   
   }
   .hamburger {
     display: block;
