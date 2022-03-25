@@ -16,7 +16,7 @@ p {
 }
 /* BODY COLOR */
 body {
-  background-color: #fffffff8;
+  background-color: #E8F0F2;
 }
 
 /* HEADER SECTION */
@@ -75,8 +75,9 @@ ul {
 
 main {
   color: white;
-  float: right;
-  padding-right: 10px;
+  position: absolute;
+  top: 15%;
+  right: 5px;
 }
 
 /* ABOUT US SECTION*/
@@ -102,7 +103,7 @@ main {
   border-radius: 20px;
   border: none;
   border-bottom: 2px solid #88d1d7;
-  background: #37a49d;
+  background: #39A2DB;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -127,7 +128,7 @@ main {
   padding-bottom: 10px;
 }
 .playTime {
-  background-color: #6eb5cf;
+  background-color: #A2DBFA;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -145,6 +146,7 @@ main {
   height: 300px;
   width: 400px;
   margin: 0 5px;
+  border-radius: 8px;
 }
 
 /* SERVICES SECTION THIRD SECTION*/
@@ -174,7 +176,7 @@ main {
 
 .thirdContainer {
   margin-top: 15px;
-  background-color: #6eb5cf;
+  background-color: #A2DBFA;
   padding-top: 20px;
   color: white;
   text-align: center;
@@ -220,7 +222,7 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background: #587f8bf8;
+  background: #A2DBFA;
 }
 
 form {
@@ -236,7 +238,7 @@ form {
   width: 50px;
   height: 20px;
   border-radius: 20px;
-  background: #37a49d;
+  background: #39A2DB;
 }
 .form-left-decoration {
   bottom: 60px;
@@ -304,7 +306,7 @@ form {
   border-radius: 20px;
   border: none;
   border-bottom: 2px solid #88d1d7;
-  background: #37a49d;
+  background: #39A2DB;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -320,7 +322,7 @@ form {
 
 /* FOOTER SECTION */
 footer {
-  background-color: #6eb5cf;
+  background-color: #053742;
   text-align: center;
   max-width: 100%;
 }
@@ -341,10 +343,14 @@ address {
   padding-top: 30px;
   padding-bottom: 5%;
 }
+
 .socials img {
   padding-right: 3.33%;
   cursor: pointer;
   padding-left: 2%;
+}
+.socials img:hover {
+    
 }
 
 /* MOBILE VIEW */
@@ -368,13 +374,13 @@ address {
     font-family: "Varela Round", sans-serif;
   }
   main {
-    color: white;
-    float: right;
-    padding-right: 10px;
-    padding-top: 50px;
+    position: absolute;
+    top: 15%;
+    right: 5px;
+   
   }
   main h1 {
-    font-size: 23px;
+    font-size: 21px;
   }
   main p {
     font-size: 15px;
@@ -402,7 +408,8 @@ address {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #37a49dd8;
+    background-color: #37a49dd5;
+    
   }
 
   .nav-ul.show {
