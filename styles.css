@@ -89,11 +89,12 @@ main {
 
 #About {
   padding-right: 50px;
+  color: hsl(232, 10%, 55%);
 }
 
 .aboutUsImg {
   height: 300px;
-  margin-top: 10%;
+  margin-top: 10px;
 }
 
 .btn {
@@ -432,5 +433,8 @@ address {
   }
   .hamburger {
     display: block;
+  }
+  .mainHide {
+    
   }
 }
