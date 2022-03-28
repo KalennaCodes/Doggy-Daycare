@@ -127,7 +127,6 @@ main {
 .playTime {
   background-color: #A2DBFA;
   margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .playTime-images-grid {
@@ -150,13 +149,16 @@ main {
 
 #Services h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#Services {
+  padding: 10px;
 }
 
 .thirdContainer {
   margin-top: 15px;
   background-color: #A2DBFA;
-  padding-top: 20px;
   color: white;
 }
 
@@ -170,6 +172,7 @@ main {
   max-width: 50%;
 }
 .daycare-paragraph {
+  padding: 10px;
   max-width: 50%;
   place-self: center;
   text-align: center;
@@ -182,6 +185,7 @@ main {
   max-width: 50%;
 }
 .boarding-paragraph {
+  padding: 10px;
   max-width: 50%;
   place-self: center;
   text-align: center;
